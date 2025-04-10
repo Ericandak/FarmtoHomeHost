@@ -259,6 +259,7 @@ CACHES = {
 #         'LOCATION': 'redis://127.0.0.1:6379/1',
 #     }
 # }
+STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 
 # Translation settings
 TRANSLATION_CACHE_TIMEOUT = 60 * 60 * 24  # 24 hours
